@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#left{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#left nav{
+    color: #bababa;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px;
+}
+
+nav h2{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav button{
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #bababa;
+    font-size: 40px;
+    width: 60px;
+}
+
+.info{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    
+}
+
+.info h1{
+    font-size: 80px;
+}
+
+.info p{
+    font-size: 20px;
+    width: 300px;
+    color: #969696;
+}
+
+.info h4 span {
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid #969696;
+  }
+
+#right{
+    display: flex;
+    flex-direction: column;
+}
+
+#upper-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#upper-div h2{
+    color: white;
+    text-transform: uppercase;
+}
+
+#upperimg1{
+    width: 400px;
+    height: 320px;
+}  
+  
+#upperimg2{
+    width: 360px;
+    height: 320px;
+} 
+
+#lower-div{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+#lower-div img{
+    width: 760px;
+    height: 79%;
+}
+
+@media (max-width: 500px)
+{
+    #main{
+        flex-direction: column;
+    }
+
+    #main #left{
+        width: 100%;
+    }
+
+    #main #right{
+        width: 100%
+    }
+}
