@@ -1,3 +1,3 @@
 ## 🚀Live Preview
 
-Live preview of this website is at [squarespace-landing-page-arj.netlify.app](squarespace-landing-page-arj.netlify.app)
+Live preview of this website is at [https://squarespace-landing-page-arj.netlify.app](https://squarespace-landing-page-arj.netlify.app)
